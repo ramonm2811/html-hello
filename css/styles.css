@@ -1,0 +1,54 @@
+
+body{
+    background-color: #000;
+}
+
+.post{
+    width: 400px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 5px;
+
+}
+
+.post .post-header {
+    height: 50px;
+}
+
+.post .post-header .html{
+    float: left;
+    height: 50px;
+    margin: 20px 20px 0;
+    display: inline;
+}
+.post .post-header .text{
+float: left;
+}
+.post .post-header .text h1,
+.post .post-header .text p{
+margin: 0;
+padding: 0;
+}
+.post .post-header .dots{
+    float: right;
+    height: 50px;
+    width: 50px;
+    margin: 20px 5px 0;
+
+
+}
+.post .post-img img{
+    width: 400px;
+} 
+
+.post .post-footer .iconos .bookmark{
+    float: right;
+}
+
+.post .post-footer .iconos i{
+    margin: 4px;
+}
+
+.post .post-footer{
+    padding: 10px;
+}
